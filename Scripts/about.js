@@ -59,8 +59,6 @@
 
             /*  "My First String",
               "My Second String",
-              "My Third String",
-              "My Fourth String"
               */
             // OR Array of an objects
             { name: "Mashud_1", age: 25 },
@@ -91,7 +89,7 @@
         /*   loop type # 1 - Classic for loop
         for(let index = 0; index < myArray.length; index++){
             console.log(myArray[index].name);
-        }
+        } 
         */
         /* loop type # 2 - foreach (modern)
          myArray.forEach(person => {
@@ -122,7 +120,7 @@
         */
 
         // let arrayEmpty = true;
-        let arrayEmpty;
+        let arrayEmpty; 
         /*  if - else toggle 
        if(myArray.length > 0 ){
           arrayEmpty = false;
@@ -148,7 +146,7 @@
 
         //=== checks both value and type where == only checks value
         if (myArray[0].age === 20) {
-
+ 
             //   console.log(myArray)
             console.log("My Age is 20"); // unshift used before so index 0 will show unshift method.
         }
