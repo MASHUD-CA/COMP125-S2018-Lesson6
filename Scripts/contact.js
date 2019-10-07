@@ -28,6 +28,7 @@
         } 
     }
 
+    
     function clearValidationMessges() {
         FullName.setCustomValidity("");
         ContactNumber.setCustomValidity("");
