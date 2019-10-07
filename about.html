@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>COMP125 - About</title>
+  <!-- CSS Section -->
+  <!-- 
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+  -->
+  <link rel="stylesheet" href="./Content/bootstrap.cerulean.min.css">
+  <!-- instead of above bootstrap this bootstrap cerulean used-->
+
+  <link rel="stylesheet" href="./node_modules/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="./Content/app.css">
+</head>
+
+<body>
+  <!--Main Nav -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">
+      <img src="./Assets/images/Logo_3.PNG" width="50" height="50" alt="">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item ">
+          <a class="nav-link" href="./index.html"><i class="fa fa-home fa-lg"></i> Home </a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link active" href="./about.html"><i class="fa fa-info-circle fa-lg"></i> About <span
+              class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./contact.html"><i class="fa far fa-comment fa-lg"></i> Contact </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <!--Jumbotron-->
+  <div class="jumbotron">
+    <h1 class="display-4">About, world!</h1>
+    <p class="lead">This is a Sample about page for COMP125.</p>
+    <hr class="my-4">
+    <p id="paragraph" class="content"></p>
+    <!-- p> is Emmet Abbreviation (Filler text). Just type p> Lorem.....No u want to text     then enter a large paragraph will display.  -->
+    <p class="content">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo nobis quidem doloribus ratione
+      ducimus aut non totam asperiores officiis voluptatem quo explicabo vel, enim sit modi laudantium distinctio ipsam
+      quaerat earum minima voluptas possimus? Veniam quo repellendus, quia cum eos dolores quam autem quibusdam magnam
+      vel. Quo hic earum modi et qui nulla laborum. Ullam maxime maiores, eveniet, perferendis iste deserunt optio rerum
+      quam doloremque esse nihil accusantium iure, voluptate totam molestiae quasi inventore asperiores soluta quia?
+      Iusto sequi nesciunt illum quasi saepe eligendi eius, corrupti, veritatis consequatur hic excepturi similique,
+      voluptatem ipsa aspernatur. Molestiae asperiores quis, quam aperiam eos quia aut praesentium non ducimus, eligendi
+      natus facilis sapiente quisquam. Eum aperiam, sunt beatae reprehenderit esse ipsa dolores architecto sed natus
+      pariatur vel dicta, facilis repudiandae voluptatem ducimus possimus error inventore. Sapiente saepe necessitatibus
+      perspiciatis ipsum porro voluptate, molestias ea quasi dolorem eaque? Veritatis aspernatur quibusdam dignissimos
+      officiis illo quasi tempora labore neque in quod, quisquam nam eos quae veniam, eligendi atque consectetur
+      voluptatem dolore! Sit, eos. Alias voluptas sequi impedit enim odio? Quis voluptates provident facilis, mollitia
+      veritatis temporibus, praesentium corrupti eius vitae exercitationem ab, voluptas odit. Tempora, nemo voluptate
+      doloribus nam iste ratione quo aliquid corrupti inventore animi?</p>
+    <!--   <a class="btn btn-primary btn-lg" href="./index.html" role="button">Learn more</a>    -->
+
+    <ul id="myFavouriteThings"></ul>
+
+  </div>
+  <!-- JavaScript Section-->
+  <!-- 
+  <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+  <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="./Scripts/app.js"></script>
+-->
+
+  <!-- JavaScript Section-->
+
+  <!-- 3rd Party Libraries -->
+  <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+  <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+  <!-- App Scripts-->
+  <!-- Order is very important here. Bottom one must upper of app.js;-->
+  <script src="./Scripts/home.js"></script>
+  <script src="./Scripts/about.js"></script>
+  <script src="./Scripts/contact.js"></script>
+  <script src="./Scripts/app.js"></script>
+
+
+</body>
+
+</html>

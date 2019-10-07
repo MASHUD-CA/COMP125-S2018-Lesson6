@@ -1,0 +1,33 @@
+{
+  "name": "comp125-s2018-lession6a",
+  "version": "1.0.0",
+  "description": "demo project for comp125",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel Scripts -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MASHUD-CA/COMP125-S2018-Lesson6A.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MASHUD-CA/COMP125-S2018-Lesson6A/issues"
+  },
+  "homepage": "https://github.com/MASHUD-CA/COMP125-S2018-Lesson6A#readme",
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.15.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.6.2",
+    "@babel/core": "^7.6.2",
+    "@types/bootstrap": "^4.1.0",
+    "@types/jquery": "^3.3.31",
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  }
+}
