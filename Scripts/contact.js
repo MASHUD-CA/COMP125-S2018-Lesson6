@@ -25,7 +25,7 @@
 
         for (let index = 0; index < document.forms[0].length; index++) {
             console.log(`%c Form Elements ${index}: ${document.forms[0].elements[index].value}`, "color: red;");
-        }
+        } 
     }
 
     function clearValidationMessges() {
