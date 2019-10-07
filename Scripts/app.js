@@ -19,7 +19,7 @@ let app;
         try {
             switch (title) {
                 case "COMP125 - Home":
-                   
+                      
                     content.HomeContent();
                     break;
 

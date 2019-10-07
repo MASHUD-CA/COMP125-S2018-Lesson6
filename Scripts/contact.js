@@ -67,9 +67,10 @@
             }
         }
     }
+
     function ValidateForm() {
         setEventHandlersForFormElements();
-    }
+    } 
     function ContactContent() {
         clearValidationMessges();
 
